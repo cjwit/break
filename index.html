@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+	<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+	<link rel='stylesheet' type='text/css' href='styles.css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='script.js'></script>
+
+	<title>Break time.</title>
+</head>
+<body>
+<div class = 'container-fluid'>
+
+	<div class = 'row'>
+		<div class = 'text-center'>
+			<h1>Break time.</h1>
+		</div>
+	</div>
+	<div class = 'row'>	
+		<div id = 'setup' class = 'col-sm-3 col-sm-offset-2'>
+			<div class = 'setting'>
+				<p>WORK TIME</p>
+				<h3><p class = 'adjust'><span id = 'workDown'> - </span><span id = 'work'>??</span><span id = 'workUp'> + </span></p></h3>
+			</div>
+
+			<div class = 'setting'>
+				<p>BREAK TIME</p>
+				<h3><p class = 'adjust'><span id = 'breakDown'> - </span><span id = 'break'>??</span><span id = 'breakUp'> + </span></p></h3>
+			</div>
+
+			<div>
+				<h3><span id = 'reset'>Reset</span></h3>
+			</div>
+		</div>	
+		
+		<div id = 'timer' class = 'col-sm-6'>
+			<div>
+				<p><span id = 'status'>Ready?</span></p>
+				<p><span id = 'remaining'>Set Go!</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

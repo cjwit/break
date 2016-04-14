@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300|Lobster);
+
+/* blues */
+.color-secondary-1-0 { color: #236467 }
+.color-secondary-1-1 { color: #67989A }
+.color-secondary-1-2 { color: #417E80 }
+.color-secondary-1-3 { color: #0D4A4D }
+.color-secondary-1-4 { color: #003133 } /* background */
+
+/* greens */
+.color-secondary-2-1 { color: #D2ED9E }
+.color-secondary-2-2 { color: #A4C663 } /* text */
+.color-secondary-2-0 { color: #7A9E35 }	
+.color-secondary-2-3 { color: #557714 }
+.color-secondary-2-4 { color: #344F00 }
+
+/* reds */
+.color-primary-1 { color: #FFACAA }
+.color-primary-0 { color: #AA3C39 }	
+.color-primary-2 { color: #D46D6A }
+.color-primary-3 { color: #801815 }
+.color-primary-4 { color: #550200 }
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	margin-bottom: 50px;
+}
+
+#closure {
+	text-align: center;
+}
+
+.setting {
+	display: block;
+	margin: 20px 30px 0px 30px;
+	text-align: center;
+}
+
+#reset {
+	display: block;
+	padding: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#timer {
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	margin: auto;
+	position: relative;
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	box-shadow: inset 0 0 0 5px black;
+}
+
+#timer div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.red {
+	background-color: #550200;
+}
+
+.green {
+	background-color: #344F00;
+}
+
+#status {
+	font-size: 3em;
+	display: block;
+}
+
+#remaining {
+	display: block;
+	padding-top: 25px;
+	font-size: 2.5em;
+}
+
+#workUp, #workDown, #breakUp, #breakDown {
+	display: inline-block;
+	padding: 10px;
+}
